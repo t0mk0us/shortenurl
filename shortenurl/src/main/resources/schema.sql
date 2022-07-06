@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS URLs;
+CREATE TABLE URLs (
+	ID int PRIMARY KEY,
+    UrlID int,
+    URL CLOB
+);

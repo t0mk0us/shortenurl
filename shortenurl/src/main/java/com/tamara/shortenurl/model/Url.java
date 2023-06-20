@@ -21,7 +21,7 @@ public class Url{
 	private String ID;
 	
 	@Column(name = "LongURL")
-    private String longUrl;
+    	private String longUrl;
 	
 	@Column(name = "ShortURL")
 	private String shortURL;
